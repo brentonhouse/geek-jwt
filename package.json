@@ -1,0 +1,56 @@
+{
+	"name": "@geek/jwt",
+	"version": "0.0.1",
+	"description": "JWT parser for JavaScript Node.js and Titanium native mobile",
+	"keywords": [
+		"oauth",
+		"jwt",
+		"jsonwebtoken",
+		"nodejs",
+		"titanium",
+		"mobile",
+		"axway",
+		"turbo",
+		"ios",
+		"android",
+		"native",
+		"appcelerator",
+		"brenton-house"
+	],
+	"author": {
+		"name": "Brenton House",
+		"email": "brenton.house@gmail.com",
+		"url": "https://brenton.house"
+	},
+	"maintainers": [
+		{
+			"name": "Brenton House",
+			"email": "brenton.house@gmail.com",
+			"url": "https://brenton.house"
+		}
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "github:brentonhouse/geek-jwt"
+	},
+	"devDependencies": {
+		"@geek/eslint-config": "0.0.17",
+		"eslint": "^7.11.0",
+		"eslint-plugin-import": "^2.22.1",
+		"eslint-plugin-jsdoc": "^30.6.4",
+		"eslint-plugin-promise": "^4.2.1"
+	},
+	"optionalDependencies": {
+		"@geek/logger": ">=1.0.8",
+		"moment": "^2.29.1",
+		"lodash": "^4.17.20"
+	},
+	"main": "./jwt.js",
+	"scripts": {
+		"test": "npm install --ignore-scripts && npm run list",
+		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
+		"prepublishOnly": "git pull && bump",
+		"lint": "eslint . --fix"
+	}
+}
