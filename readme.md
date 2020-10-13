@@ -54,14 +54,18 @@ const jwt = require('@geek/jwt');
 ⭐  [Titanium Turbo Template (Default)](https://www.npmjs.com/package/@geek/template-turbo-default) - Template for default Turbo app.  Based on the basic Alloy Template + some extra goodies.   
 ⭐  [Titanium Turbo Template (Next)](https://www.npmjs.com/package/@geek/template-turbo-next) - Template for Turbo app (with extras).  Based on the default Turbo Template + some extras.   
 ⭐  [Titanium Mobile](https://www.npmjs.com/package/titanium) - Open-source tool for building powerful, cross-platform native apps with JavaScript.   
-⭐  [Alloy](https://www.npmjs.com/package/alloy) - MVC framework built on top of Titanium Mobile.   
+⭐  [@geek/cache](https://www.npmjs.com/package/@geek/cache) - Caching module for Node.js and Axway Titanium   
+⭐  [@geek/jwt](https://www.npmjs.com/package/@geek/jwt) - JWT parser for JavaScript Node.js and Titanium native mobile   
+⭐  [@geek/logger](https://www.npmjs.com/package/@geek/logger) - Logging module for Node.js and Axway Titanium   
+⭐  [@geek/retry](https://www.npmjs.com/package/@geek/retry) - Retry JavaScript functions and promises in Node.js and Axway Titanium   
+⭐  [Alloy](https://www.npmjs.com/package/alloy) - MVC framework built on top of Titanium Mobile.      
 ⭐  [Appcelerator](https://www.npmjs.com/package/appcelerator) - Installer for the Appcelerator Platform tool   
 
 ## 📚Learn More
 
 ⭐  [Axway Developer Blog](https://devblog.axway.com)   
 ⭐  [Axway Developer YouTube Channel](https://youtube.com/axwaydev)   
-⭐  [Axway Developer Portal](https://developer.axway.com)   
+⭐  [Axway Developer Portal](https://developer.axway.com)    
 
 ## 📣 Feedback
 
