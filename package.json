@@ -1,6 +1,6 @@
 {
 	"name": "@geek/jwt",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "JWT parser for JavaScript Node.js and Titanium native mobile",
 	"keywords": [
 		"oauth",
