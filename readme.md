@@ -1,8 +1,8 @@
 # @geek/jwt
 
-![GitHub stars](https://img.shields.io/github/stars/brentonhouse/titanium-turbo?style=social)
-![GitHub forks](https://img.shields.io/github/forks/brentonhouse/titanium-turbo?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/brentonhouse/titanium-turbo?style=social)
+![GitHub stars](https://img.shields.io/github/stars/brentonhouse/geek-jwt?style=social)
+![GitHub forks](https://img.shields.io/github/forks/brentonhouse/geek-jwt?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/brentonhouse/geek-jwt?style=social)
 [![@geek/jwt](https://img.shields.io/npm/v/@geek/jwt.png)](https://www.npmjs.com/package/@geek/jwt)
 [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=brentonhouse/geek-jwt)](https://dependabot.com)
 

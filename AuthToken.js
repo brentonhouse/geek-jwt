@@ -1,7 +1,7 @@
-const jsonwebtoken = require(`@titanium/jwt`);
+const jsonwebtoken = require(`../jwt`);
 const _ = require(`lodash`);
 const moment = require(`moment`);
-const logger = require(`@geek/logger`).createLogger(`@titanium/authentication-oauth`, { meta: { filename: __filename } });
+const logger = require(`@geek/logger`).createLogger(`@geek/jwt`, { meta: { filename: __filename } });
 
 
 class AuthToken {
