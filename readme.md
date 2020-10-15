@@ -1,4 +1,4 @@
-# @geek/jwt
+# @geek/jwt <sup><sup><sub><a name="brenton-house" href="#brenton-house">🚀</a></sub></sup></sup> 
 
 ![GitHub stars](https://img.shields.io/github/stars/brentonhouse/geek-jwt?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/brentonhouse/geek-jwt?style=social)

@@ -1,6 +1,6 @@
 {
 	"name": "@geek/jwt",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "JWT parser for JavaScript Node.js and Titanium native mobile",
 	"keywords": [
 		"oauth",
@@ -35,7 +35,7 @@
 		"url": "github:brentonhouse/geek-jwt"
 	},
 	"devDependencies": {
-		"@geek/eslint-config": "0.0.17",
+		"@geek/eslint-config": "^0.0.17",
 		"eslint": "^7.11.0",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-jsdoc": "^30.6.5",
@@ -50,7 +50,7 @@
 	"scripts": {
 		"test": "npm install --ignore-scripts && npm run list",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly": "git pull && bump",
+		"prepublishOnly": "git pull && bump release",
 		"lint": "eslint . --fix"
 	}
 }
