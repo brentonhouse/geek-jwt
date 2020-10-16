@@ -51,7 +51,7 @@
 		"prep": "npm install --ignore-scripts && npm run list",
 		"test": "npm run test",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
-		"prepublishOnly2": "git pull && bump release",
+		"prepublishOnly": "git pull && bump release",
 		"lint": "eslint . --fix"
 	}
 }
