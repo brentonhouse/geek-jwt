@@ -1,6 +1,6 @@
 {
 	"name": "@geek/jwt",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "JWT parser for JavaScript Node.js and Titanium native mobile",
 	"keywords": [
 		"oauth",
@@ -49,7 +49,7 @@
 	"main": "./jwt.js",
 	"scripts": {
 		"prep": "npm install --ignore-scripts && npm run list",
-		"test": "npm run test",
+		"test": "npm run prep",
 		"list": "npm pack && tar -xvzf *.tgz && rm -rf package *.tgz",
 		"prepublishOnly": "git pull && bump release",
 		"lint": "eslint . --fix"
